@@ -3,19 +3,15 @@
 
 int main(){
 
- std::cout << "\n" << "Input command here: ";
+ /*I means input you can change its variable name
+ however then you must update the input variable names
+ of all the code that relys on said variable*/
 
  std::string I = "";
-
- std::cin >> I;
-
- std::cout << "\n" << I  << "\n";
 
  while(I != "stop"){
 
       std::cout << "\n" << "Input command here: ";
-
-      std::string I = "";
 
       std::cin >> I;
 

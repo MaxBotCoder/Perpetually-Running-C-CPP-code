@@ -17,7 +17,7 @@ int main(){
 
       if(I == "--version"){
            
-           std::cout << "\n" << "Version 0.1.2"  << "\n";
+           std::cout << "\n" << "Version: 0.1.3"  << "\n";
            std::cout << "\n" << "Author: MaxBotCoder/MaxBot"  << "\n";
 
       }

@@ -15,8 +15,13 @@ int main(){
 
       std::cin >> I;
 
-      std::cout << "\n" << I  << "\n";
+      if(I == "--version"){
+           
+           std::cout << "\n" << "Version 0.1.2"  << "\n";
+           std::cout << "\n" << "Author: MaxBotCoder/MaxBot"  << "\n";
 
+      }
+      
       if(I == "stop"){
 
       exit(true);
